@@ -14,6 +14,7 @@ class Test_001_Login:
     def test_homePageTitle(self,setup):
         self.logger.info("*************** Test_001_Login *****************")
         self.logger.info("****Started Home page title test ****")
+        self.logger.info("****test kukuna ****")
         self.driver = setup
         self.logger.info("****Opening URL****")
         self.driver.get(self.baseURL)
