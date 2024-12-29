@@ -16,6 +16,7 @@ class Test_001_Login:
         self.logger.info("****Started Home page title test ****")
         self.logger.info("****test kukuna ****")
         self.logger.info("****test kukuna1 ****")
+        self.logger.info("****no no  no no kukuna1 ****")
         self.driver = setup
         self.logger.info("****Opening URL****")
         self.driver.get(self.baseURL)
